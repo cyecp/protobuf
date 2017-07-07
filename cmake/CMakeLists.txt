@@ -168,9 +168,9 @@ include(libprotobuf.cmake)
 include(libprotoc.cmake)
 include(protoc.cmake)
 
-if (protobuf_BUILD_TESTS)
-  include(tests.cmake)
-endif (protobuf_BUILD_TESTS)
+#if (protobuf_BUILD_TESTS)
+#  include(tests.cmake)
+#endif (protobuf_BUILD_TESTS)
 
 include(install.cmake)
 
